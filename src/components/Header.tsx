@@ -11,7 +11,7 @@ export function Header() {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo Section */}
         <div className="flex items-center space-x-2">
-          <div className="w-12 h-12">
+          <div className="w-16 h-16">
             <img 
               src="https://i.ibb.co/994RpBZ2/Deep-Detector-Logo.png" 
               alt="Deep Detector Logo" 
