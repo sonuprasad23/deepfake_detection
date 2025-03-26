@@ -103,8 +103,8 @@ export function ContactSection() {
                     <Phone className="h-6 w-6 text-blue-400" />
                   </div>
                   <div>
-                    {/* <h4 className="font-medium mb-1">Phone</h4>
-                    <p className="text-gray-300">+1 (555) 123-4567</p> */}
+                    <h4 className="font-medium mb-1">Phone</h4>
+                    <p className="text-gray-300">+1 (555) 123-4567</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -112,14 +112,14 @@ export function ContactSection() {
                     <MapPin className="h-6 w-6 text-purple-400" />
                   </div>
                   <div>
-                    {/* <h4 className="font-medium mb-1">Address</h4>
+                    <h4 className="font-medium mb-1">Address</h4>
                     <p className="text-gray-300">
                       123 AI Boulevard
                       <br />
                       Tech District, CA 94103
                       <br />
                       United States
-                    </p> */}
+                    </p>
                   </div>
                 </div>
               </div>
