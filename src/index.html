@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#09090b">
+  
+  <!-- Favicon (Small Logo in Browser Tab) -->
+  <link rel="icon" type="image/png" href="https://i.ibb.co/994RpBZ2/Deep-Detector-Logo.png">
+  
+  <!-- Web App Manifest -->
+  <link rel="manifest" href="/manifest.json">
+  
+  <title>Deepfake Detector App</title>
+</head>
+<body>
+  <!-- Main Logo -->
+  <div style="text-align: center; margin-top: 20px;">
+    <img src="https://i.ibb.co/994RpBZ2/Deep-Detector-Logo.png" 
+         alt="Deepfake Detector Logo" 
+         width="150">
+  </div>
+
+  <!-- React App Root -->
+  <div id="root"></div>
+
+  <!-- Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js');
+      });
+    }
+  </script>
+</body>
+</html>
