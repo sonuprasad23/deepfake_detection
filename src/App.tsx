@@ -8,6 +8,8 @@ import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { Background3D } from './components/Background3D';
 import { ThemeProvider } from './components/ThemeProvider';
+import { DeepfakeDetector } from './components/DeepfakeDetector';
+
 export function App() {
   return <ThemeProvider>
       <div className="relative min-h-screen bg-gray-950 text-white">
@@ -16,6 +18,9 @@ export function App() {
           <Header />
           <main className="container mx-auto px-4 py-8">
             <Hero />
+            <div className="my-16">
+              <DeepfakeDetector />
+            </div>
             <AboutSection />
             <MissionSection />
             <PricingSection />
